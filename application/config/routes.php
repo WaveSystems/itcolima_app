@@ -38,7 +38,8 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "page_controller";
+$route['users'] = "users_controller";
 $route['404_override'] = '';
 
 
